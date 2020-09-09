@@ -13,6 +13,8 @@ module.exports = {
     rules: [
       {test: /\.css$/, use: ['style-loader', 'css-loader']},
       {test: /\.less$/, use: ['style-loader', 'css-loader', 'less-loader']},
+      {test:/\.scss$/,use:['vue-style-loader', 'css-loader','sass-loader']},
+      {test:/\.(ttf|woff)$/,use:'url-loader'},
       {test: /\.vue$/, use: 'vue-loader'}
     ]
   },
