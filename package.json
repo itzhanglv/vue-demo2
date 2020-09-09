@@ -1,0 +1,29 @@
+{
+  "name": "vue-demo02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --content-base src --host --open --port 3000 --hot",
+    "build": "webpack --config webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^4.2.2",
+    "html-webpack-plugin": "^4.4.1",
+    "sass-loader": "^10.0.2",
+    "style-loader": "^1.2.1",
+    "vue": "^2.6.12",
+    "vue-cli": "^2.9.6",
+    "vue-style-loader": "^4.1.2",
+    "webpack": "^4.44.1",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "devDependencies": {
+    "vue-loader": "^15.9.3",
+    "vue-template-compiler": "^2.6.12",
+    "webpack-cli": "^3.3.12"
+  }
+}
